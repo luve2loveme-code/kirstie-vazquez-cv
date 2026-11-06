@@ -11,72 +11,74 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <a href="#home" class="logo">K. Vazquez</a>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="profile">
+        <img src="profile.jpg" alt="Kirstie Vazquez" class="profile-img" />
+        <h1>Kirstie Vazquez</h1>
+        <p class="title">Operations & Digital Platform Professional</p>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li><i class="fas fa-envelope"></i> <a href="mailto:kirstievazquez@gmail.com">kirstievazquez@gmail.com</a></li>
+          <li><i class="fas fa-phone"></i> <a href="tel:4077494471">(407) 749-4471</a></li>
+          <li><i class="fas fa-map-marker-alt"></i> Orlando, Florida</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Core Competencies</h3>
+        <ul class="competency-list">
+          <li>Quality Assurance & Testing</li>
+          <li>Content & Catalog Operations</li>
+          <li>AI & Workflow Automation</li>
+          <li>Project Coordination</li>
+          <li>Trilingual Communication (EN/ES/ASL)</li>
+          <li>Stakeholder Management</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Education</h3>
+        <div class="edu-item">
+          <strong>Associate Degree, Culinary Arts</strong>
+          <span>Le Cordon Bleu, Orlando (2010–2012)</span>
+        </div>
+        <div class="edu-item">
+          <strong>Real Estate Agent License</strong>
+          <span>McKissock, Orlando (2016)</span>
+        </div>
+        <div class="edu-item">
+          <strong>High School Diploma</strong>
+          <span>Middle College High School, Queens, NY</span>
+        </div>
+      </div>
+
       <a href="Kirstie_Vazquez_Resume.pdf" class="download-btn" download>
-        <span class="dl-icon"><i class="fas fa-download"></i></span> Download CV
+        <i class="fas fa-download"></i> Download CV
       </a>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
     </div>
-  </header>
+  </aside>
 
-  <section id="home" class="hero">
-    <div class="container hero-grid">
-      <div class="hero-image">
-        <img src="profile.jpg" alt="Kirstie Vazquez" />
-      </div>
-      <div class="hero-text">
-        <h1>CV / RESUME</h1>
-        <p class="tagline">OPERATIONS. QA. AUTOMATION.</p>
-        <p class="summary">Operations and digital platform professional with 18 years of experience in quality assurance, content operations, AI automation, and project coordination. Building practical tools and processes that deliver accurate results.</p>
-      </div>
-    </div>
-  </section>
+  <main class="main-content">
+    <nav class="top-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-  <section class="cards-section">
-    <div class="container cards-grid">
-      <div class="card card-1">
-        <div class="card-icon"><i class="fas fa-user"></i></div>
-        <h3>ABOUT ME</h3>
-        <p>Trilingual professional combining technical execution with clear communication and stakeholder alignment across QA, content, and operations.</p>
-        <a href="#about" class="card-link">LEARN MORE →</a>
-      </div>
-      <div class="card card-2">
-        <div class="card-icon"><i class="fas fa-briefcase"></i></div>
-        <h3>EXPERIENCE</h3>
-        <p>From leading B2B portal QA and 500+ PDP management to co-founding a marketing firm and interpreting in high-stakes environments.</p>
-        <a href="#experience" class="card-link">VIEW EXPERIENCE →</a>
-      </div>
-      <div class="card card-3">
-        <div class="card-icon"><i class="fas fa-star"></i></div>
-        <h3>SKILLS</h3>
-        <p>Quality Assurance • AI & Automation • Content Operations • Shopify & Directus • Trilingual (EN/ES/ASL) • Project Coordination</p>
-        <a href="#skills" class="card-link">SEE SKILLS →</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="section">
-    <div class="container">
+    <section id="about" class="section">
       <h2>About Me</h2>
       <p class="lead">Operations and digital platform professional with 18 years of experience managing client projects, content operations, and quality assurance across web platforms and marketing environments.</p>
-      <p>I personally entered, formatted, and verified data for 500+ product detail pages and led full end-to-end testing for a new B2B customer portal. I build practical AI tools and automation workflows that cut manual effort on high-volume tasks, while drawing on years of client-facing project work and trilingual communication to keep processes clear and stakeholders aligned.</p>
-      <p>Based in Orlando, Florida, and open to remote opportunities that value accurate, self-directed output.</p>
-    </div>
-  </section>
+      <p>I personally entered, formatted, and verified data for 500+ product detail pages and led full end-to-end testing for a new B2B customer portal covering authentication, order processing, returns, and search accuracy. I build practical AI tools and automation workflows that cut manual effort on high-volume content and testing tasks, while drawing on years of client-facing project work and trilingual communication to keep processes clear and stakeholders aligned.</p>
+      <p>This combination of hands-on technical execution and process design works especially well for remote roles that need accurate, self-directed output without constant oversight. Based in Orlando, Florida.</p>
+    </section>
 
-  <section id="experience" class="section section-alt">
-    <div class="container">
+    <section id="experience" class="section">
       <h2>Experience</h2>
       <div class="timeline">
         <div class="job">
@@ -86,11 +88,13 @@
             <span class="dates">August 2025 – Present</span>
           </div>
           <ul>
-            <li>Interpret in medical, community, and business settings, keeping communication accurate and culturally appropriate.</li>
-            <li>Stay calm and clear in high-pressure environments while ensuring all participants can fully engage.</li>
-            <li>Qualified in tactile interpreting for clients who are deafblind or have specific communication needs.</li>
+            <li>Interpret in medical, community, and business settings, keeping communication accurate and culturally appropriate for everyone involved.</li>
+            <li>Stay calm and clear in high-pressure, time-sensitive environments while ensuring all participants can fully engage.</li>
+            <li>Manage a flexible, variable schedule with consistent punctuality, thorough preparation, and accurate documentation of sessions.</li>
+            <li>Qualified in tactile interpreting; adapt strategies for clients who are deafblind or have other specific communication needs.</li>
           </ul>
         </div>
+
         <div class="job">
           <div class="job-header">
             <h3>QA Specialist, Web Platform & Data Operations</h3>
@@ -98,24 +102,29 @@
             <span class="dates">March 2026 – September 2026</span>
           </div>
           <ul>
-            <li>Entered, formatted, and verified data for 500+ product detail pages across Vehicle, UTV, and Cabinet Mat lines.</li>
-            <li>Served as primary QA lead for the new B2B customer portal, testing authentication, orders, returns, and access controls.</li>
-            <li>Built custom AI-assisted data workflows and SOPs for high-volume content population.</li>
-            <li>Built the Resource & Help Center and populated 82 detailed FAQ and support categories.</li>
-            <li>Validated Algolia search accuracy and handled critical site maintenance and optimization QA.</li>
+            <li>Entered, formatted, and verified data for 500+ product detail pages using new template standards, covering precise vehicle fitment, specifications, multimedia blocks, and rich content across Vehicle, UTV, and Cabinet Mat lines.</li>
+            <li>Served as primary QA lead for the new B2B customer portal, running full end-to-end testing of login/authentication flows, order dashboards, purchase order creation and processing, returns, refunds, and permission-based access controls.</li>
+            <li>Built custom AI-assisted data workflows and SOPs that accelerated high-volume population of Makes, Models, Blog, and Resource sections while maintaining strong data integrity.</li>
+            <li>Led functional, regression, and integration testing for CMS components and frontend features including breadcrumbs, content grids, dynamic routes (FAQ/Resources), forms, hero sections, product specifications, multi-media blocks, and Liquidation/Clearance selectors.</li>
+            <li>Built out the new Resource & Help Center architecture and populated 82 detailed FAQ and support categories to improve customer self-service and site navigation.</li>
+            <li>Validated Algolia search accuracy across fuzzy matching, attribute-based queries, SKU precision, year/hybrid model searches, grouped results, and proper handling of non-vehicle products.</li>
+            <li>Handled critical site maintenance and optimization QA: removed vehicle-specific UI elements from gift card and simple product flows, optimized hero images and logos, implemented YouTube video facades, and verified caching, sitemaps, and frontend routing.</li>
+            <li>Supported production stability through daily high-demand inventory monitoring (e.g., 2027 Kia Telluride), Shopify product add/delete/update checks, and close collaboration with content, development, and stakeholder teams on feature rollouts and milestones (50 / 100 / 300 / 500+ PDPs).</li>
           </ul>
         </div>
+
         <div class="job">
           <div class="job-header">
-            <h3>Co-Founder / Operations Manager</h3>
+            <h3>Co-Founder / Operations Manager / Account Manager</h3>
             <span class="company">Diligent Marketing Solutions • New York, NY / Orlando, FL</span>
             <span class="dates">May 2008 – 2025</span>
           </div>
           <ul>
-            <li>Project-managed design, development, and launch of websites and marketing campaigns for small businesses.</li>
-            <li>Supervised freelance teams and implemented responsive web solutions using WordPress, Joomla, and Bootstrap.</li>
+            <li>Project-managed design, development, and successful launch of websites, brand identities, and integrated marketing campaigns for small businesses across Boston, NYC, Chicago, Orlando, and Los Angeles.</li>
+            <li>Supervised freelance design and development teams; implemented responsive web solutions (WordPress, Joomla, HTML5/CSS3, Bootstrap) and optimized production costs, timelines, and client deliverables using project management tools.</li>
           </ul>
         </div>
+
         <div class="job">
           <div class="job-header">
             <h3>Director of Media & Marketing</h3>
@@ -123,10 +132,11 @@
             <span class="dates">January 2012 – 2025</span>
           </div>
           <ul>
-            <li>Developed sales proposals, promotional materials, and multi-channel marketing strategies.</li>
-            <li>Managed client social media and coordinated new product launch plans.</li>
+            <li>Developed sales proposals, promotional collateral, event materials, and multi-channel marketing strategies; tracked campaign performance and provided data-driven recommendations for optimization.</li>
+            <li>Authored and maintained client social media presence (Facebook, Instagram, Twitter, blogs) and coordinated new product launch plans and rollouts.</li>
           </ul>
         </div>
+
         <div class="job">
           <div class="job-header">
             <h3>Sign Language Interpreter (ASL)</h3>
@@ -134,72 +144,77 @@
             <span class="dates">June 2003 – March 2008</span>
           </div>
           <ul>
-            <li>Provided ASL and Spanish interpreting in medical and community environments with accuracy and professionalism.</li>
+            <li>Provided ASL and Spanish interpreting in demanding medical and community environments; maintained accurate records, level-headed professionalism, and flexibility while reporting directly to the Director of Operations.</li>
           </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Selected Projects</h2>
+    <section id="projects" class="section">
+      <h2>Selected AI & Automation Projects</h2>
       <div class="project-cards">
         <div class="project-card">
-          <h3>AI-Assisted QA Tools</h3>
-          <p>Built internal AI tools including compliance checklists, bug-reporting modules, workflow dashboards, and text summarizers used daily by the team.</p>
+          <h3>Internal AI QA Tools</h3>
+          <p>Built internal AI tools for the QA team, including compliance checklists, bug-reporting modules, workflow dashboards, and text summarizers that engineers and data staff use daily.</p>
         </div>
         <div class="project-card">
-          <h3>Automated Content Platform</h3>
-          <p>Created a platform that generates SEO-optimized articles, user personas, and structured FAQs to accelerate digital asset production.</p>
+          <h3>Automated Content Generation</h3>
+          <p>Created an automated content generation platform that produces SEO-optimized articles, data-driven user personas, and structured FAQs, accelerating production for digital assets.</p>
         </div>
         <div class="project-card">
-          <h3>B2B Customer Portal QA</h3>
-          <p>Led full end-to-end testing of the new B2B portal covering authentication, order processing, returns, and search accuracy.</p>
+          <h3>Diagnostic Agents & Compliance</h3>
+          <p>Developed diagnostic agents and prompt frameworks to simulate privacy, tracking, and ad-blocking constraints, with automated compliance reporting for server-side validation.</p>
+        </div>
+        <div class="project-card">
+          <h3>Analytics Dashboards</h3>
+          <p>Designed analytics dashboards tracking digital asset revenue, conversion funnels, audience demographics, and technology insights for stakeholder decision-making.</p>
+        </div>
+        <div class="project-card">
+          <h3>Prompt Libraries & SOPs</h3>
+          <p>Assembled reusable prompt libraries and SOPs that combine web scraping and language models to automate data extraction, content conversion, and product detail page updates at scale.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="section section-alt">
-    <div class="container">
+    <section id="skills" class="section">
       <h2>Skills</h2>
       <div class="skills-grid">
-        <div class="skill-group">
+        <div>
           <h3>Quality Assurance</h3>
           <p>Functional, regression, end-to-end, UAT, and accessibility testing</p>
         </div>
-        <div class="skill-group">
+        <div>
           <h3>Platforms & Tools</h3>
           <p>Directus, Shopify, Algolia Search, Liquid, WordPress, Joomla</p>
         </div>
-        <div class="skill-group">
+        <div>
+          <h3>Data & Content Ops</h3>
+          <p>PDP management, catalog data entry, content orchestration</p>
+        </div>
+        <div>
           <h3>AI & Automation</h3>
-          <p>Prompt engineering, workflow automation, dashboards, SOP development</p>
+          <p>Custom prompt engineering, workflow automation, dashboard creation, SOP development</p>
         </div>
-        <div class="skill-group">
-          <h3>Communication</h3>
-          <p>Trilingual interpreting (EN/ES/ASL), technical writing, client relations</p>
+        <div>
+          <h3>Project & Communication</h3>
+          <p>Timeline management, stakeholder reporting, trilingual interpreting (EN/ES/ASL), technical writing, client relations</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="section contact-section">
-    <div class="container">
-      <div class="contact-line">
-        <span class="line"></span>
+    <section id="contact" class="section">
+      <h2>Get In Touch</h2>
+      <p>Open to remote roles in Orlando, Florida and beyond. Feel free to reach out.</p>
+      <div class="contact-links">
         <a href="mailto:kirstievazquez@gmail.com"><i class="fas fa-envelope"></i> kirstievazquez@gmail.com</a>
-        <span class="line"></span>
+        <a href="tel:4077494471"><i class="fas fa-phone"></i> (407) 749-4471</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
+    <footer>
       <p>&copy; 2026 Kirstie Vazquez. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
+  </main>
 
   <script src="script.js"></script>
 </body>
